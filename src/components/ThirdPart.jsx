@@ -15,7 +15,7 @@ const ThirdPart = () => {
             <p className="text-[16px] sm:text-[18px] text-[#5B5F77] font-Inter font-normal mt-4">
               We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly, achieve marketing goals, and drive growth.
             </p>
-            <button className='py-3 px-6 bg-[#FD5F36] rounded-lg text-[16px] sm:text-[20px] text-[#FFF] font-Red_Hat font-semibold mt-8'>
+            <button className="py-4 px-6 bg-[#FD5F36] rounded-lg text-[18px] text-[#FFF] font-Poppins font-semibold mt-6 hover:bg-[#52C5B6] transition-colors duration-300">
               Free Consultation
             </button>
 

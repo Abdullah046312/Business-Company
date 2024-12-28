@@ -35,7 +35,12 @@ const Banner = () => {
 
           {/* Right Section (Image) */}
           <div className="w-full lg:w-[45%]">
-            <img className="w-full" src={images} alt="Business Consulting" />
+          <img
+  className="w-full filter drop-shadow-[1px_1px_100px_#6D67E4]"
+  src={images}
+  alt="Business Consulting"
+/>
+
           </div>
         </div>
       </Container>
