@@ -22,7 +22,7 @@ const Banner = () => {
               Already a member of our community? Sign in! The Premium Consulting Service provides a faster way to process plans, register dealings, and create titles.
             </p>
 
-            <button className="py-4 px-6 bg-[#FD5F36] rounded-lg text-[18px] text-[#FFF] font-Poppins font-semibold mt-6 hover:bg-[#52C5B6] transition-colors duration-300">
+            <button className="py-4 px-6 bg-[#FD5F36] rounded-lg text-[18px] text-[#FFF] font-Poppins font-semibold mt-6 hover:bg-[#4B70F5] transition-colors duration-300">
               Free Consultation
             </button>
 

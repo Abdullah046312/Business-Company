@@ -15,7 +15,7 @@ const ThirdPart = () => {
             <p className="text-[16px] sm:text-[18px] text-[#5B5F77] font-Inter font-normal mt-4">
               We help our clients succeed by creating brand identities, digital experiences, and print materials that communicate clearly, achieve marketing goals, and drive growth.
             </p>
-            <button className="py-4 px-6 bg-[#FD5F36] rounded-lg text-[18px] text-[#FFF] font-Poppins font-semibold mt-6 hover:bg-[#52C5B6] transition-colors duration-300">
+            <button className="py-4 px-6 bg-[#FD5F36] rounded-lg text-[18px] text-[#FFF] font-Poppins font-semibold mt-6 hover:bg-[#4B70F5] transition-colors duration-300">
               Free Consultation
             </button>
 
@@ -41,8 +41,13 @@ const ThirdPart = () => {
 
           {/* Right Section (Image) */}
           <div className="w-full lg:w-[45%] mt-8 lg:mt-0">
-            <img src={images7} alt="Business Solution" className="w-full h-auto rounded-lg" />
+            <img
+              src={images7}
+              alt="Business Solution"
+              className="w-full h-auto rounded-lg transition-all duration-300 hover:shadow-[5px_5px_15px_rgba(0,0,0,0.5)]"
+            />
           </div>
+
         </div>
       </Container>
     </section>

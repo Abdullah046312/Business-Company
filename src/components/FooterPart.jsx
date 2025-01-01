@@ -5,6 +5,7 @@ import { AiFillGoogleCircle } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { FaEnvelope } from 'react-icons/fa';
 
 const FooterPart = () => {
   return (
@@ -55,16 +56,20 @@ const FooterPart = () => {
 
           {/* Get Latest Updates Section */}
           <div className="w-full md:w-[25%] text-center md:text-left mt-6 md:mt-0">
-            <h4 className='text-[18px] text-[#52C5B6] font-Inter'>Get Latest Updates</h4>
-            <h5 className='text-[16px] text-[#FFF] font-Inter mt-1'>
-              Subscribe to our newsletter and get many interesting things every week.
-            </h5>
-            <input
-              className='py-2 px-5 text-[16px] outline-none mt-5 pl-3 text-[#262626] rounded-lg'
-              type="text"
-              placeholder='Your Email Address'
-            />
-          </div>
+      <h4 className="text-[18px] text-[#52C5B6] font-Inter">Get Latest Updates</h4>
+      <h5 className="text-[16px] text-[#FFF] font-Inter mt-1">
+        Subscribe to our newsletter and get many interesting things every week.
+      </h5>
+      <div className="relative mt-5">
+        <input
+          className="py-2 px-5 text-[16px] outline-none pl-10 text-[#262626] rounded-lg w-full"
+          type="email"
+          placeholder="Your Email Address"
+        />
+        <FaEnvelope className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#4B70F5]" />
+      </div>
+        </div>
+     
         </div>
         <div className="">
             <h2 className='text-[16] text-[#FFF] font-Inter mt-3'>© 2020 Innovate - All Right Reserved</h2>

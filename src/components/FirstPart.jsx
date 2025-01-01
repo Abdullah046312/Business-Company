@@ -37,7 +37,7 @@ const FirstPart = () => {
             </div>
 
             {/* Button */}
-            <button className="py-4 px-8 bg-[#FD5F36] rounded-lg text-[18px] text-[#FFF] font-Poppins font-semibold mt-8 hover:bg-[#52C5B6] transition-colors duration-300">
+            <button className="py-4 px-8 bg-[#FD5F36] rounded-lg text-[18px] text-[#FFF] font-Poppins font-semibold mt-8 hover:bg-[#624E88] transition-colors duration-300">
               Free Consultation
             </button>
           </div>
